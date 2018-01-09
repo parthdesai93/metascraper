@@ -23,6 +23,7 @@ const DEFAULT_RULES = [
   'metascraper-logo',
   'metascraper-publisher',
   'metascraper-title',
+  'metascraper-twitter-player',
   'metascraper-url'
 ]
 
