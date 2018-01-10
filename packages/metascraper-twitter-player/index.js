@@ -11,7 +11,7 @@ const wrap = rule => ({ htmlDom, url }) => {
 
 
 module.exports = () => ({
-    twitterPlayer: [
+    playerUrl: [
         wrap($ => $('meta[name="twitter:player"]').attr('value')),
         ($, url) => (isString(url) ? url : null)
     ]
